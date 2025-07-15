@@ -10,7 +10,6 @@ const shopAddressRouter = require('./routes/shop/address-routes');
 const shopOrderRouter = require('./routes/shop/order-routes');
 mongoose
   .connect(
-    "mongodb+srv://shrishty1228p:wDhjG8vkby5G1rru@cluster0.pmqpvbd.mongodb.net/"
   )
   .then(() => console.log("MongoDB connected"))
   .catch((error) => console.log(error));
